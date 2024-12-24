@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section{
+    height: 100vh;
+}
+
+.hero-sec{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-left-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-logo-hdg{
+    font-size: 2.2em;
+    font-weight: bold;
+    color: rgb(7, 7, 54);
+}
+
+.hero-left-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hero-hdg{
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(7, 7, 54);
+    text-align: center;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-btn button{
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.hero-right-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right-sec img{
+    height: 650px;
+    width: 650px;
+}
+
+.secound-sec{
+    height: 100%;
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.secound-content-hdg{
+    display: flex;
+    justify-content: center;
+}
+
+.secound-content span{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(7, 7, 54);
+    text-align: center;
+}
+
+.secound-content p{
+    color: rgb(7, 7, 54);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.secound-img-sec-top{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secound-img-sec-bottom{
+    display: flex;
+        justify-content: flex-end;
+}
+
+.secound-img-sec-top img{
+    width: 200px;
+    height: 200px;
+}
+
+.secound-img-sec-bottom img{
+    width: 200px;
+    height: 200px;
+}
+
+.third-sec{
+    height: 100%;
+    display: flex;
+}
+
+.third-left-sec img{
+    width: 750px;
+    height: 695px;
+}
+
+.third-right-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeadf;
+    flex: 1;
+    gap: 40px;
+}
+
+.third-hdg span{
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(7, 7, 54);
+    display: flex;
+    text-align: center;
+}
+
+.third-hdg p{
+    color: rgb(7, 7, 54);
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.third-btn button{
+    width: 200px;
+        height: 50px;
+        background-color: orangered;
+        color: white;
+        border: none;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        padding: 10px;
+}
+
+.sixth-sec{
+    height: 100%;
+    background-color: #eaeadf;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sixth-hdg{
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(7, 7, 54);
+}
+
+.sixth-content-sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sixth-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-content img{
+    width: 200px;
+    height: 200px;
+}
+
+.sixth-content span{
+    color: rgb(7, 7, 54);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.sixth-content p{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(7, 7, 54);
+    text-align: center;
+}
+
+.seventh-sec{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eaeadf;
+}
+
+.seventh-left-sec{
+    display: flex;
+    align-items: center;
+}
+
+.seventh-left-sec img{
+    width: 400px;
+    height: 400px;
+}
+
+.seventh-right-sec{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+   gap: 80px;
+}
+
+.seventh-hdg{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(7, 7, 54);
+}
+
+.seventh-content-sec{
+    display: flex;
+    flex-direction: column;
+}
+
+.seventh-content span{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: rgb(7, 7, 54);
+}
+
+.seventh-content p{
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(7, 7, 54);
+}
