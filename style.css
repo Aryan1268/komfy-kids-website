@@ -250,3 +250,159 @@ section{
     font-weight: bold;
     color: rgb(7, 7, 54);
 }
+
+@media screen and (max-width:768px) {
+    .hero-sec{
+        flex-direction: column;
+    }
+
+    .hero-logo-hdg {
+        text-align: center;
+    }
+
+    .hero-hdg{
+        font-size: 2.7em;
+        margin-top: 20px;
+    }
+
+    .hero-right-sec img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .secound-img-sec-top img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .secound-content-hdg{
+        font-size: 1em;
+    }
+
+    .secound-content p{
+        font-size: 1.4em;
+    }
+
+    .secound-img-sec-bottom img{
+        width: 100px;
+            height: 100px;
+    }
+
+    .third-sec{
+        flex-direction: column;
+    }
+
+    .third-left-sec{
+        display: flex;
+        justify-content: center;
+    }
+
+    .third-left-sec img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .sixth-hdg{
+        font-size: 3em;
+    }
+
+    .sixth-content-sec{
+        flex-direction: column;
+    }
+
+    .sixth-content img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .sixth-content span{
+        font-size: 1.5em;
+    }
+
+    .sixth-content p{
+        font-size: .8em;
+    }
+
+    .seventh-sec{
+        flex-direction: column;
+    }
+    
+    .seventh-left-sec{
+        display: flex;
+        justify-content: center;
+    }
+
+    .seventh-left-sec img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .seventh-right-sec{
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .hero-sec {
+            flex-direction: column;
+        }
+
+    .hero-logo-hdg {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .hero-hdg{
+        font-size: 5em;
+        margin-top: 20px;
+    }
+
+    .hero-right-sec img {
+            width: 400px;
+            height: 400px;
+        }
+    .secound-sec{
+        display: flex;
+        justify-content: space-around;
+    }
+    .secound-img-sec-top img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .secound-img-sec-bottom img{
+        width:300px;
+        height: 300px;
+    }
+
+    .third-sec{
+        flex-direction: column;
+    }
+
+    .third-left-sec{
+        display: flex;
+        justify-content: center;
+    }
+
+    .third-left-sec img {
+        width: 600px;
+        height: 500px;
+    }
+
+    .sixth-content-sec{
+        flex-direction: column;
+    }
+
+    .seventh-sec{
+        flex-direction: column;
+    }
+
+    .seventh-left-sec{
+        display: flex;
+        justify-content: center;
+    }
+
+    .seventh-right-sec{
+        padding: 20px;
+    }
+}
