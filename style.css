@@ -3,6 +3,12 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* scroll-behavior: smooth;
+    scrollbar-width: none;
+    --webkit-scrollbar{
+    display: none;
+    }
+    overflow: hidden; */
 }
 
 section{
